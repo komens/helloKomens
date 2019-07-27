@@ -17,8 +17,8 @@ config = {
         this.workContainer = document.getElementsByClassName("workWrapper-dot");//获得作品分容器
         this.myAge = document.getElementById("myAge");
         //调用 api 更新网页一句和诗词
-        // this.getThePoetry();
-        // this.getOneSay();
+        this.getThePoetry();
+        this.getOneSay();
         this.setAge(this);
         this.setWorkData(this);
         this.showWork(this);
