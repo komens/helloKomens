@@ -462,6 +462,10 @@ ul {
   padding-bottom: 15px;
   border-bottom: 1px dotted #ddd;
 }
+.section4 .right .wrapper .workWrapper-dot::-webkit-scrollbar {
+    background: #f1f1f1;
+    width: 4px;
+} 
 .section4 .right .wrapper .work-wrapper .work-left {
   flex-basis: 30%;
   overflow: hidden;
